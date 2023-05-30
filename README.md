@@ -16,3 +16,7 @@ It can convert the data in human readable format it can encode and decode the ba
 * For Example in HTML Coding: <img src=”data:image/pig: base64, paste the base64 code” alt=””>
 So the code before pasting the base64 code is: ”data:image/pig: base64, and after that you can
 paste the base64 code and save and see the result.
+
+# PDF File For Your Reference
+
+* [Conversion PDF Manual]('https://github.com/wa5/base64-encode-file/blob/main/Base64.pdf')
