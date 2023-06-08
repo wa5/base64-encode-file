@@ -6,7 +6,10 @@ It can convert the data in human readable format it can encode and decode the ba
 
 # Step to be follow:
 * Install base64-encode-file by using following comand
- npm i base64-encode-file 
+ ```bash
+npm i base64-encode-file
+```
+  
 * So basically copy the image and search base64 encoder.
 
 * Click on local file.
