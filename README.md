@@ -22,7 +22,7 @@ is installed or not.
 
 # Base64 code look like this:
 
-* For Example in HTML Coding: <img src=”data:image/pig: base64, paste the base64 code” alt=””>
+* For Example in HTML Coding: ```bash<img src=”data:image/pig: base64, paste the base64 code” alt=””>```
 So the code before pasting the base64 code is: ”data:image/pig: base64, and after that you can
 paste the base64 code and save and see the result.
 
