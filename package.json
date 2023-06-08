@@ -2,8 +2,8 @@
   "name": "base64-encode-file",
   "version": "1.0.4",
   "description": "its a image convertor to base64 async",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "/dist"
   ],
