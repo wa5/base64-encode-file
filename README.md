@@ -9,6 +9,8 @@ It can convert the data in human readable format it can encode and decode the ba
  ```bash
 npm i base64-encode-file
 ```
+* After the Installation check in the package.json file wither it
+is installed or not
   
 * So basically copy the image and search base64 encoder.
 
