@@ -1,6 +1,6 @@
 {
   "name": "base64-encode-file",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "its a image convertor to base64 async",
   "main": "index.js",
   "scripts": {
