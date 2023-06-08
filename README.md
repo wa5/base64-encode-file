@@ -7,12 +7,13 @@ It can convert the data in human readable format it can encode and decode the ba
 # Step to be follow:
 * Install base64-encode-file by using following comand
  ```bash
-npm i base64-encode-file
+  npm i base64-encode-file
 ```
 * After the Installation check in the package.json file wither it
-is installed or not
- image.png
-  
+is installed or not.
+ ```bash
+ "base64-encode-file": "^1.0.1",
+  ```
 * So basically copy the image and search base64 encoder.
 
 * Click on local file.
@@ -28,3 +29,4 @@ paste the base64 code and save and see the result.
 # PDF File For Your Reference
 
 * [Conversion PDF Manual](https://github.com/wa5/base64-encode-file/blob/main/Base64.pdf)
+* [Base-64]
