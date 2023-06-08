@@ -22,11 +22,15 @@ is installed or not.
 
 # Base64 code look like this:
 
-* For Example in HTML Coding: ```bash<img src=”data:image/pig: base64, paste the base64 code” alt=””>```
+* For Example in HTML Coding: ```bash <img src=”data:image/pig: base64, paste the base64 code” alt=””>```
 So the code before pasting the base64 code is: ”data:image/pig: base64, and after that you can
 paste the base64 code and save and see the result.
 
 # PDF File For Your Reference
 
 * [Conversion PDF Manual](https://github.com/wa5/base64-encode-file/blob/main/Base64.pdf)
-* [Base-64]
+
+# React.js File For Your Reference
+
+* [React.js Example](https://github.com/wa5/base64-encode-file-react-js-example/tree/main/exmple)
+
