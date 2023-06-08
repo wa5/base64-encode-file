@@ -11,6 +11,7 @@ npm i base64-encode-file
 ```
 * After the Installation check in the package.json file wither it
 is installed or not
+ image.png
   
 * So basically copy the image and search base64 encoder.
 
