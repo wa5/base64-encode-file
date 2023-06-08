@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function encode(file) {
     return new Promise((resolve, reject) => {
         const fileReader = new FileReader();
@@ -11,5 +12,5 @@ function encode(file) {
         };
     });
 }
-module.exports = encode;
+exports.default = encode;
 //# sourceMappingURL=index.js.map

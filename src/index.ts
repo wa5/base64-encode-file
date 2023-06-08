@@ -11,4 +11,4 @@ function encode(file:any){
       });
 }
 
-module.exports=encode
+export default encode
