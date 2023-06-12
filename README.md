@@ -14,7 +14,7 @@ is installed or not.
  ```bash
  "base64-encode-file": "^1.0.1",
   ```
-* Working Example is as follows:
+* Working Example with React.JS is as follows:
  ```bash
  import logo from './logo.svg';
 import './App.css';
@@ -34,6 +34,30 @@ let handleChange=async(e)=>{
 }
 
 export default App;
+```
+* Working Example with React.TS is as follows:
+
+```bash
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import base64 from 'base64-encode-file'
+
+function App() {
+ 
+  let handleChange=async(e:any)=>{
+    console.log( await base64(e.target.files[0]))
+ 
+  }
+  return (
+    <>
+    <input type="file" name="" onChange={handleChange} />
+    </>
+  );
+}
+
+export default App;
+
 ```
 
 # Base64 code look like this:
