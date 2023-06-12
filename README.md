@@ -46,6 +46,7 @@ import base64 from 'base64-encode-file'
 function App() {
  
   let handleChange=async(e:any)=>{
+    // write the code here
     console.log( await base64(e.target.files[0]))
  
   }
