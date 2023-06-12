@@ -14,11 +14,27 @@ is installed or not.
  ```bash
  "base64-encode-file": "^1.0.1",
   ```
-* So basically copy the image and search base64 encoder.
+* Working Example is as follows:
+ ```bash
+ import logo from './logo.svg';
+import './App.css';
+import {useState} from 'react'
+import base64 from 'base64-encode-file'
 
-* Click on local file.
+function App() {
+let [img,setImg]=useState()
+let handleChange=async(e)=>{
+  let data=await base64(e.target.files[0])
+  console.log(data)
+}
+  return <>
+  <h1>testing the  base64-encode-file</h1>
+  <input type="file" name="img" onChange={handleChange}/>
+  </>
+}
 
-* Paste it there and click on encode and rest of work is done and you can copy that code and paste it in your code.
+export default App;
+```
 
 # Base64 code look like this:
 
