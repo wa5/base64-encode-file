@@ -74,3 +74,6 @@ paste the base64 code and save and see the result.
 
 * [React.js Example](https://github.com/wa5/base64-encode-file-react-js-example/tree/main/exmple)
 
+# React.ts File For Your Reference
+
+* [React.ts Example](https://github.com/wa5/base64-encode-file-react-js-example/blob/main/flipkart-react/src/App.tsx)
